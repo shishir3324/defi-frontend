@@ -5,6 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    selectedTokens: [],
+    tokenList: [],
+    actions: {
+      tokenSelected: false
+    },
+    finalResult: null
   },
   mutations: {
   },

@@ -1,0 +1,58 @@
+:root {
+    --disabled: #F6F9FD
+}
+.big-con {
+    background-color: #FCFDFE;
+}
+.defi-con {
+    background: #FFFFFF;
+    min-height: 650px;
+}
+.sm-defi-box {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sm-chunk {
+    background: #F6F9FD;
+    height: 45px;
+    width: 45px; 
+}
+.token-chunk{
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 45px;
+    width: 45px;
+}
+
+.disabled-color{
+    color: grey
+}
+.disabled-bg{
+    background: var(--disabled);
+}
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+#amount .cmn-style {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 36px;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%
+}
+#amount .disabled {
+    opacity: 0.6}
+
+#amount p {
+    margin: 0
+}
+#amount input {
+    outline: none;
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
